@@ -1,0 +1,51 @@
+.bootstrap-iso .main-text {
+  position: absolute;
+  top: 50px;
+  width: 96.66666666666666%;
+  color: #FFF;
+}
+.bootstrap-iso .btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+.bootstrap-iso .btn-clear {
+  color: #FFF;
+  background-color: transparent;
+  border-color: #FFF;
+  margin-right: 15px;
+}
+.bootstrap-iso .btn-clear:hover {
+  color: #000;
+  background-color: #FFF;
+}
+.bootstrap-iso .item {
+  height: 500px;
+}
+@media screen and (max-width: 768px) {
+  .bootstrap-iso .item {
+    height: auto !important;
+  }
+}
+.bootstrap-iso .verticalSpacer {
+  height: 50px;
+}
+.bootstrap-iso .caption {
+  width: 100%;
+  bottom: .3rem;
+  position: absolute;
+  background: #000;
+  background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.bootstrap-iso .caption h4 {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.bootstrap-iso .thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}

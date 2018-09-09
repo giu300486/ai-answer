@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tesi.org/ammnistratori" xmlns:tns="http://www.tesi.org/ammnistratori" elementFormDefault="qualified">
+	
+	<element name="amministratori">
+		<complexType>
+			<sequence minOccurs="0" maxOccurs="unbounded">
+				<element name="amministratore">
+					<complexType>
+						<sequence>
+							<element name="username"></element>
+							<element name="password"></element>
+							<element name="nome"></element>
+							<element name="cognome"></element>
+							<element name="email"></element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+	
+</schema>

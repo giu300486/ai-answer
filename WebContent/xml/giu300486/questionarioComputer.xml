@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<tns:questionario xmlns:tns="http://www.tesi.org/questionario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" abilita="true" css="/TESI-V2/xml/giu300486/default.css" nome="questionarioComputer" xsi:schemaLocation="http://www.tesi.org/questionario ../../xsd/questionario.xsd ">	  
+  
+  
+  
+<tns:classeAppartenenza nome="costoMinore800">		    	
+   	<tns:oggetto nome="PC700"/>		    	
+   	<tns:oggetto nome="PC600"/>		
+   	<tns:oggetto nome="PC500"/>		
+   	<tns:oggetto nome="PC450"/>
+	<tns:oggetto nome="PC750"/>
+	<tns:oggetto nome="PC350"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="costoMaggioreUguale800">
+	<tns:oggetto nome="PC800"/>
+	<tns:oggetto nome="PC850"/>
+	<tns:oggetto nome="PC900"/>
+	<tns:oggetto nome="PC1000"/>
+	<tns:oggetto nome="PC1500"/>
+	<tns:oggetto nome="PC1300"/>
+	<tns:oggetto nome="PC2000"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="numeroProcessori2">
+	<tns:oggetto nome="PC500"/>
+	<tns:oggetto nome="PC450"/>
+	<tns:oggetto nome="PC350"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="numeroProcessori4">
+	<tns:oggetto nome="PC600"/>
+	<tns:oggetto nome="PC700"/>
+	<tns:oggetto nome="PC750"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="numeroProcessori8">
+	<tns:oggetto nome="PC800"/>
+	<tns:oggetto nome="PC850"/>
+	<tns:oggetto nome="PC900"/>
+	<tns:oggetto nome="PC1000"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="numeroProcessori16">
+	<tns:oggetto nome="PC1500"/>
+	<tns:oggetto nome="PC1300"/>
+	<tns:oggetto nome="PC2000"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="RamMinoreUguale8">
+	<tns:oggetto nome="PC500"/>
+	<tns:oggetto nome="PC450"/>
+	<tns:oggetto nome="PC350"/>
+	<tns:oggetto nome="PC600"/>
+	<tns:oggetto nome="PC700"/>
+	<tns:oggetto nome="PC750"/>
+</tns:classeAppartenenza>
+<tns:classeAppartenenza nome="RamMaggiore8">
+	<tns:oggetto nome="PC800"/>
+	<tns:oggetto nome="PC850"/>
+	<tns:oggetto nome="PC900"/>
+	<tns:oggetto nome="PC1000"/>
+	<tns:oggetto nome="PC1500"/>
+	<tns:oggetto nome="PC1300"/>
+	<tns:oggetto nome="PC2000"/>
+</tns:classeAppartenenza>
+ 	  
+ 	  
+ 	  
+<tns:classeEsclusione nome="C1">
+	<tns:domanda nome="D3"/>
+</tns:classeEsclusione>
+<tns:classeEsclusione nome="C2">
+	<tns:domanda nome="D2"/>
+</tns:classeEsclusione>
+<tns:classeEsclusione nome="C3">
+	<tns:domanda nome="D1"/>
+	<tns:domanda nome="D2"/>
+	<tns:domanda nome="D3"/>
+	<tns:domanda nome="D4"/>
+</tns:classeEsclusione>
+
+
+
+<tns:domanda codiceDomanda="D1" precedenza="0">
+	<tns:contenutoDomanda>Quanto e la spesa massima che vuoi affrontare?</tns:contenutoDomanda>
+	<tns:risposta peso="3">
+		<tns:contenutoRisposta>meno di 800 euro</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="costoMinore800"/>
+		<tns:classeEsclusione nome="C1"/>
+	</tns:risposta>
+	<tns:risposta peso="3">
+		<tns:contenutoRisposta>almeno di 800 euro</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="costoMaggioreUguale800"/>
+		<tns:classeEsclusione nome="C2"/>
+	</tns:risposta>
+</tns:domanda>
+
+<tns:domanda codiceDomanda="D2" precedenza="1">
+	<tns:contenutoDomanda>Quale processori preferisci?</tns:contenutoDomanda>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>Dual Core</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="numeroProcessori2"/>
+        <tns:classeEsclusione nome="C1"/>
+	</tns:risposta>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>Quad Core</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="numeroProcessori4"/>
+        <tns:classeEsclusione nome="C1"/>
+	</tns:risposta>
+</tns:domanda>
+
+<tns:domanda codiceDomanda="D3" precedenza="1">
+	<tns:contenutoDomanda>Quale processori preferisci?</tns:contenutoDomanda>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>Octa Core</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="numeroProcessori8"/>
+        <tns:classeEsclusione nome="C2"/>
+	</tns:risposta>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>Exa Core</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="numeroProcessori16"/>
+        <tns:classeEsclusione nome="C2"/>
+	</tns:risposta>	
+</tns:domanda>
+
+<tns:domanda codiceDomanda="D4" precedenza="2">
+	<tns:contenutoDomanda>Quanta RAM preferisci?</tns:contenutoDomanda>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>meno o pari a 8 GB</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="RamMinoreUguale8"/>
+        <tns:classeEsclusione nome="C3"/>
+	</tns:risposta>
+	<tns:risposta peso="2">
+		<tns:contenutoRisposta>maggiore di 8 GB</tns:contenutoRisposta>
+		<tns:classeAppartenenza nome="RamMaggiore8"/>
+        <tns:classeEsclusione nome="C3"/>
+	</tns:risposta>
+</tns:domanda>
+
+</tns:questionario>

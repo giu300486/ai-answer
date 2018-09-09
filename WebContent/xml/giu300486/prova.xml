@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:questionario xmlns:tns="http://www.tesi.org/questionario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" abilita="true" css="/TESI-V2/xml/giu300486/default.css" nome="prova" xsi:schemaLocation="http://www.tesi.org/questionario ../../xsd/questionario.xsd ">	
+	<tns:classeAppartenenza nome="C1">
+		<tns:oggetto nome="O1"/>
+		<tns:oggetto nome="O2"/>
+		<tns:oggetto nome="O4"/>
+	</tns:classeAppartenenza>
+  	<tns:classeAppartenenza nome="C2">
+  		<tns:oggetto nome="O2"/>
+  		<tns:oggetto nome="O4"/>
+  	</tns:classeAppartenenza>
+  	<tns:classeAppartenenza nome="C3">
+  		<tns:oggetto nome="O1"/>
+  		<tns:oggetto nome="O3"/>
+  	</tns:classeAppartenenza>
+  	<tns:classeAppartenenza nome="C4">
+  		<tns:oggetto nome="O2"/>
+  		<tns:oggetto nome="O3"/>
+  	</tns:classeAppartenenza>
+  	
+  	<tns:classeEsclusione nome="E1">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E2">
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E3">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E4">
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E5">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E6">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E7">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E8">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E9">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E10">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E11">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E12">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E13">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D7"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E14">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D7"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E15">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D5"/>
+  		<tns:domanda nome="D7"/>
+  		<tns:domanda nome="D8"/>
+  	</tns:classeEsclusione>
+  	<tns:classeEsclusione nome="E16">
+  		<tns:domanda nome="D1"/>
+  		<tns:domanda nome="D2"/>
+  		<tns:domanda nome="D3"/>
+  		<tns:domanda nome="D4"/>
+  		<tns:domanda nome="D6"/>
+  		<tns:domanda nome="D7"/>
+  	</tns:classeEsclusione>
+  	
+	<tns:domanda codiceDomanda="D1" precedenza="0">
+		<tns:contenutoDomanda>contenutoDomanda1</tns:contenutoDomanda>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E1"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeAppartenenza nome="C4"/>
+			<tns:classeEsclusione nome="E2"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D2" precedenza="1">
+		<tns:contenutoDomanda>contenutoDomanda2</tns:contenutoDomanda>
+		<tns:risposta peso="1">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E3"/>
+		</tns:risposta>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeEsclusione nome="E4"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D3" precedenza="1">
+		<tns:contenutoDomanda>contenutoDomanda3</tns:contenutoDomanda>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeEsclusione nome="E5"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeEsclusione nome="E6"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D4" precedenza="1">
+		<tns:contenutoDomanda>contenutoDomanda4</tns:contenutoDomanda>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeEsclusione nome="E7"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E8"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D5" precedenza="2">
+		<tns:contenutoDomanda>contenutoDomanda5</tns:contenutoDomanda>
+		<tns:risposta peso="1">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeEsclusione nome="E9"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C4"/>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E10"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D6" precedenza="2">
+		<tns:contenutoDomanda>contenutoDomanda6</tns:contenutoDomanda>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeAppartenenza nome="C4"/>
+			<tns:classeEsclusione nome="E11"/>
+		</tns:risposta>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E12"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D7" precedenza="2">
+		<tns:contenutoDomanda>contenutoDomanda7</tns:contenutoDomanda>
+		<tns:risposta peso="1">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeEsclusione nome="E13"/>
+		</tns:risposta>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C4"/>
+			<tns:classeEsclusione nome="E14"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D8" precedenza="2">
+		<tns:contenutoDomanda>contenutoDomanda8</tns:contenutoDomanda>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E15"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeEsclusione nome="E16"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+</tns:questionario>

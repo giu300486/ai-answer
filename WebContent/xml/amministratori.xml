@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:amministratori xmlns:tns="http://www.tesi.org/ammnistratori" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tesi.org/ammnistratori ../xsd/ammnistratori.xsd ">
+	
+	<tns:amministratore>
+		<tns:username>cosimo93</tns:username>
+		<tns:password>12</tns:password>
+		<tns:nome>Cosimo</tns:nome>
+		<tns:cognome>Intrieri</tns:cognome>
+		<tns:email>cosix93@live.it</tns:email>
+	</tns:amministratore>
+	
+	<tns:amministratore>
+		<tns:username>giu300486</tns:username>
+		<tns:password>12</tns:password>
+		<tns:nome>Giuseppe</tns:nome>
+		<tns:cognome>Fornaro</tns:cognome>
+		<tns:email>giu300486@hotmail.it</tns:email>
+	</tns:amministratore>
+	
+	<tns:amministratore>
+		<tns:username>andrea91</tns:username>
+		<tns:password>12</tns:password>
+		<tns:nome>Andrea</tns:nome>
+		<tns:cognome>Fornaro</tns:cognome>
+		<tns:email>andrea91@hotmail.it</tns:email>
+	</tns:amministratore>
+
+	<tns:amministratore>
+		<tns:username>ciccio94</tns:username>
+		<tns:password>12</tns:password>
+		<tns:nome>Francesco</tns:nome>
+		<tns:cognome>Rose</tns:cognome>
+		<tns:email>ciccio94@hotmail.it</tns:email>
+	</tns:amministratore>
+
+	<tns:amministratore>
+		<tns:username>alex93</tns:username>
+		<tns:password>12</tns:password>
+		<tns:nome>Alexander</tns:nome>
+		<tns:cognome>Karaulshikikov</tns:cognome>
+		<tns:email>alex93@hotmail.it</tns:email>
+	</tns:amministratore>
+	
+</tns:amministratori>

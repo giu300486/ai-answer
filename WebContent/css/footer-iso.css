@@ -1,0 +1,46 @@
+.bootstrap-iso .verticalSpacer {
+  height: 50px;
+}
+.bootstrap-iso .textFooter {
+  color: #764F1F;
+}
+.bootstrap-iso #webmaster {
+  color: #c1bdbd;
+}
+.bootstrap-iso #footerLogo {
+  max-height: 50px;
+}
+@media screen and (min-width: 992px) {
+  .bootstrap-iso #footerLogoContainer {
+    margin-top: -35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bootstrap-iso #footerLogoContainer {
+    margin-top: 10px;
+  }
+}
+.bootstrap-iso * {
+  margin: 0;
+}
+.bootstrap-iso,
+.bootstrap-iso {
+  height: 100%;
+}
+.bootstrap-iso .wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.bootstrap-iso .footer,
+.bootstrap-iso .push {
+  height: 4em;
+}
+.bootstrap-iso .footerWellWrapper {
+  padding: 0px;
+}
+.bootstrap-iso .footerWell {
+  margin-bottom: 0px;
+  background-color: #201809;
+}

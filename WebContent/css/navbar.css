@@ -1,0 +1,67 @@
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 10px;
+    width: auto;
+}
+.myContainer .navbar-brand {
+    height: 80px;
+}
+.myContainer .nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.myContainer .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+.navbar-right{
+  padding-right: 15px;
+}
+
+.modal-body, .modal-footer{
+  background-color: #C89F48;
+}
+
+#loginPanel {
+  background-color: #C89F48;
+}
+
+#searchIcon{
+  font-size: 20px;
+}
+
+#searchToggle:active{
+  background-color: black;
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #C89F48;
+}
+
+.btn-primary:active{
+	 background-color: black !important;
+}
+
+.modal-dialog {
+    margin-top: 15%;
+}
+
+.modal-backdrop.in {
+    opacity: 30%;
+}
+
+#logout>a:hover{
+    text-decoration:none;
+}
+
+#logout>a{
+	display: inline-block;
+    text-decoration:none;
+}
+
+.navbar-nav > li > a:hover{
+	background-color: black !important;
+}

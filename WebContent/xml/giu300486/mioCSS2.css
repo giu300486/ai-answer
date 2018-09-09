@@ -1,0 +1,10 @@
+.col-md-6a{        
+  composes: col-md-6 from "./../../css/bootstrap.min.css";
+}
+
+
+
+
+
+
+

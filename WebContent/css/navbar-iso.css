@@ -1,0 +1,57 @@
+.bootstrap-iso .navbar-brand {
+  padding: 0px;
+}
+.bootstrap-iso .navbar-brand > img {
+  height: 100%;
+  padding: 10px;
+  width: auto;
+}
+.bootstrap-iso .myContainer .navbar-brand {
+  height: 80px;
+}
+.bootstrap-iso .myContainer .nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bootstrap-iso .myContainer .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.bootstrap-iso .navbar-right {
+  padding-right: 15px;
+}
+.bootstrap-iso .modal-body,
+.bootstrap-iso .modal-footer {
+  background-color: #C89F48;
+}
+.bootstrap-iso #loginPanel {
+  background-color: #C89F48;
+}
+.bootstrap-iso #searchIcon {
+  font-size: 20px;
+}
+.bootstrap-iso #searchToggle:active {
+  background-color: black;
+}
+.bootstrap-iso .dropdown-menu > li > a:hover {
+  background-color: #C89F48;
+}
+.bootstrap-iso .btn-primary:active {
+  background-color: black !important;
+}
+.bootstrap-iso .modal-dialog {
+  margin-top: 15%;
+}
+.bootstrap-iso .modal-backdrop.in {
+  opacity: 30%;
+}
+.bootstrap-iso #logout > a:hover {
+  text-decoration: none;
+}
+.bootstrap-iso #logout > a {
+  display: inline-block;
+  text-decoration: none;
+}
+.bootstrap-iso .navbar-nav > li > a:hover {
+  background-color: black !important;
+}

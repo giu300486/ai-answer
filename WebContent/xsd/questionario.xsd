@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tesi.org/questionario" xmlns:tns="http://www.tesi.org/questionario" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:Q1="http://www.w3.org/2001/XMLSchema" xmlns:Q2="http://www.w3.org/2001/XMLSchema" xmlns:Q3="http://www.w3.org/2001/XMLSchema" xmlns:Q4="http://www.w3.org/2001/XMLSchema" xmlns:Q5="http://www.w3.org/2001/XMLSchema">
+
+<!-- link http://www.dis.uniroma1.it/~rosati/lw-1314/slides-XML/lezione-5/lezione-5.html -->
+	
+			<element name="questionario">
+				<complexType>
+					<sequence>
+						<sequence>
+							<element name="classeAppartenenza"
+								minOccurs="1" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="oggetto"
+											minOccurs="1" maxOccurs="unbounded">
+											<complexType>
+												<attribute name="nome"
+													use="required">
+													<simpleType>
+														<restriction
+															base="string">
+															<pattern
+																value="[a-zA-Z0-9\s,']+">
+															</pattern>
+														</restriction>
+													</simpleType>
+												</attribute>
+											</complexType>
+										</element>
+									</sequence>
+									<attribute name="nome"
+										use="required">
+										<simpleType>
+											<restriction
+												base="string">
+												<pattern
+													value="[a-zA-Z0-9\s]+">
+												</pattern>
+											</restriction>
+										</simpleType>
+									</attribute>
+								</complexType>
+								<unique name="oggettoKey">
+									<selector xpath="tns:oggetto"></selector>
+									<field xpath="@nome"></field>
+								</unique>
+							</element>
+						</sequence>
+						<sequence>
+							<element name="classeEsclusione"
+								maxOccurs="unbounded" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element name="domanda"
+											maxOccurs="unbounded" minOccurs="1">
+											<complexType>
+												<attribute name="nome"
+													use="required">
+													<simpleType>
+														<restriction
+															base="string">
+															<pattern
+																value="[a-zA-Z0-9]+">
+															</pattern>
+														</restriction>
+													</simpleType>
+												</attribute>
+											</complexType>
+										</element>
+									</sequence>
+									<attribute name="nome"
+										use="required">
+										<simpleType>
+											<restriction
+												base="string">
+												<pattern
+													value="[a-zA-Z0-9]+">
+												</pattern>
+											</restriction>
+										</simpleType>
+									</attribute>
+								</complexType>
+							</element>
+						</sequence>
+						<sequence>
+							<element name="domanda"
+								maxOccurs="unbounded" minOccurs="1">
+								<complexType>
+									<sequence maxOccurs="1"
+										minOccurs="1">
+										<element
+											name="contenutoDomanda">
+											<simpleType>
+												<restriction
+													base="string">
+													<pattern
+														value="[a-zA-Z0-9\s\?,']+">
+													</pattern>
+												</restriction>
+											</simpleType>
+										</element>
+										<sequence>
+											<element name="risposta"
+												minOccurs="2" maxOccurs="unbounded">
+												<complexType>
+													<sequence
+														maxOccurs="1" minOccurs="1">
+														<element
+															name="contenutoRisposta">
+															<simpleType>
+																<restriction
+																	base="string">
+																	<pattern
+																		value="[a-zA-Z0-9\s,']+">
+																	</pattern>
+																</restriction>
+															</simpleType>
+														</element>
+														<sequence>
+															<element
+																name="classeAppartenenza" minOccurs="1"
+																maxOccurs="unbounded">
+																<complexType>
+																	<attribute
+																		name="nome" use="required">
+																		<simpleType>
+																			<restriction
+																				base="string">
+																				<pattern
+																					value="[a-zA-Z0-9\s]+">
+																				</pattern>
+																			</restriction>
+																		</simpleType>
+																	</attribute>
+																</complexType>
+															</element>
+														</sequence>
+														<element
+															name="classeEsclusione" minOccurs="0" maxOccurs="1">
+															<complexType>
+																<attribute
+																	name="nome" use="required">
+																	<simpleType>
+																		<restriction
+																			base="string">
+																			<pattern
+																				value="[a-zA-Z0-9]+">
+																			</pattern>
+																		</restriction>
+																	</simpleType>
+																</attribute>
+															</complexType>
+														</element>
+													</sequence>
+													<attribute
+														name="peso" use="required">
+														<simpleType>
+															<restriction
+																base="int">
+																<pattern
+																	value="[0-9]+">
+																</pattern>
+															</restriction>
+														</simpleType>
+													</attribute>
+												</complexType>
+												<unique
+													name="classeAppartenenzaK">
+													<selector
+														xpath="tns:classeAppartenenza">
+													</selector>
+													<field
+														xpath="@nome">
+													</field>
+												</unique>
+											</element>
+										</sequence>
+									</sequence>
+									<attribute name="codiceDomanda"
+										use="required">
+										<simpleType>
+											<restriction
+												base="string">
+												<pattern
+													value="[a-zA-Z0-9]+">
+												</pattern>
+											</restriction>
+										</simpleType>
+									</attribute>
+									<attribute name="precedenza"
+										use="required">
+										<simpleType>
+											<restriction base="int">
+												<pattern
+													value="[0-9]+">
+												</pattern>
+											</restriction>
+										</simpleType>
+									</attribute>
+								</complexType>
+								<unique name="contenutoRispostaKey">
+									<selector xpath="tns:risposta"></selector>
+									<field
+										xpath="tns:contenutoRisposta">
+									</field>
+								</unique>
+							</element>
+						</sequence>
+					</sequence>
+					<attribute name="nome" type="string"
+						use="required">
+					</attribute>
+					<attribute name="abilita" type="boolean" use="required"></attribute>
+					<attribute name="css" type="string" use="required"></attribute>
+				</complexType>
+				<unique name="classeAppartenenzaKey">
+					<selector xpath="tns:classeAppartenenza"></selector>
+					<field xpath="@nome"></field>
+				</unique>
+				<unique name="domandaKey">
+					<selector xpath="tns:domanda"></selector>
+					<field xpath="@codiceDomanda"></field>
+		  		</unique>
+			</element>
+
+</schema>

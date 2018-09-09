@@ -1,0 +1,49 @@
+.verticalSpacer{
+	height:50px;
+}
+
+.textFooter {
+    color: #764F1F;
+}
+#webmaster {
+    color: #c1bdbd;
+}
+#footerLogo {
+    max-height: 50px;
+}
+@media screen and (min-width: 992px) {
+    #footerLogoContainer {
+        margin-top: -35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footerLogoContainer {
+        margin-top: 10px;
+    }
+}
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+.footerWellWrapper{
+	padding: 0px;
+}
+
+.footerWell{
+	margin-bottom: 0px;
+	background-color: #201809;
+	
+}

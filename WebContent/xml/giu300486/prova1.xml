@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tns:questionario xmlns:tns="http://www.tesi.org/questionario" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" abilita="false" css="/TESI-V2/xml/giu300486/mioCSS.css" nome="prova1" xsi:schemaLocation="http://www.tesi.org/questionario ../../xsd/questionario.xsd ">	
+  <tns:classeAppartenenza nome="C1">		
+    <tns:oggetto nome="O1"/>		
+    <tns:oggetto nome="O2"/>		
+    <tns:oggetto nome="O4"/>	
+  </tns:classeAppartenenza>  
+  <tns:classeAppartenenza nome="C2">  		
+    <tns:oggetto nome="O2"/>  		
+    <tns:oggetto nome="O4"/>
+  	</tns:classeAppartenenza>
+  	<tns:classeAppartenenza nome="C3">
+  		<tns:oggetto nome="O1"/>
+  		<tns:oggetto nome="O3"/>
+  	</tns:classeAppartenenza>
+  	<tns:classeAppartenenza nome="C4">
+  		<tns:oggetto nome="O2"/>
+  		<tns:oggetto nome="O3"/>
+  	</tns:classeAppartenenza>
+
+  	<tns:classeEsclusione nome="E1">
+   	<tns:domanda nome="D1"/>
+    	<tns:domanda nome="D2"/>
+  	</tns:classeEsclusione>
+   <tns:classeEsclusione nome="E2">
+    	<tns:domanda nome="D2"/>
+  	</tns:classeEsclusione>
+  
+	<tns:domanda codiceDomanda="D1" precedenza="0">
+		<tns:contenutoDomanda>contenutoDomanda1</tns:contenutoDomanda>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeAppartenenza nome="C2"/>
+       	<tns:classeEsclusione nome="E2"/>
+		</tns:risposta>
+		<tns:risposta peso="3">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+			<tns:classeAppartenenza nome="C4"/>
+         <tns:classeEsclusione nome="E2"/>
+		</tns:risposta>
+		<tns:risposta peso="1">
+			<tns:contenutoRisposta>C</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C1"/>
+			<tns:classeAppartenenza nome="C3"/>
+		</tns:risposta>
+	</tns:domanda>
+	
+	<tns:domanda codiceDomanda="D2" precedenza="1">
+		<tns:contenutoDomanda>contenutoDomanda2</tns:contenutoDomanda>
+		<tns:risposta peso="1">
+			<tns:contenutoRisposta>A</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C2"/>
+			<tns:classeEsclusione nome="E1"/>
+		</tns:risposta>
+		<tns:risposta peso="2">
+			<tns:contenutoRisposta>B</tns:contenutoRisposta>
+			<tns:classeAppartenenza nome="C3"/>
+		</tns:risposta>
+	</tns:domanda>
+  
+</tns:questionario>
